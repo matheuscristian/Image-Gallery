@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.fancy-text {
+    font-family: "Edu NSW ACT Cursive", cursive, "Roboto", sans-serif;
+}
+
+#masonry {
+    margin: 0 auto;
+    max-width: 12000px;
+}
+
+.masonry-item {
+    @apply w-[320px] mb-4 bg-black/25 rounded-md shadow-xl;
+}
+
+.masonry-item img {
+    @apply rounded-md w-full h-auto;
+}
